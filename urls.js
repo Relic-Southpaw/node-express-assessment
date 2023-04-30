@@ -22,7 +22,7 @@ fs.readFile('urls.txt', 'utf8', async (err, data) => {
                     console.error(err);
                     process.exit(1);
                 }
-                console.log(`Wrote to ${baseurl}`,)
+                console.log(`Wrote to ${baseurl}`)
             })
         } catch {
             console.log(`Couldn't download ${array[i]}`)
